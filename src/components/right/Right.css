@@ -1,0 +1,141 @@
+.right{
+    width: 82%;
+    background-color: black;
+    color: white;
+   align-items: center;
+
+}
+.searchbox{
+    border-radius: 20px 0px 0px 20px;
+    width: 40%;
+    padding: 10px;
+    border: none;
+}
+.searchandicons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 20%;
+    justify-content: center;
+}
+.searchiconbox{
+    background-color: white;
+    border-radius:0px 20px 20px 0px; ;
+    width: 50px;
+    border: 1px solid grey;
+    background-color: black;
+    
+}
+.searchiconbox:hover{
+    background-color: rgba(34,34,34,255);
+    cursor: pointer;
+}
+.searchicon{
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 5.5px 0px;
+    
+}
+
+.microphone{
+    font-size: 20px;
+  padding: 5.5px;
+  border-radius: 50%;
+  border: 1px solid black;
+  border: none;
+}
+.microphone:hover{
+    background-color: rgba(34,34,34,255);
+    cursor: pointer;
+}
+.circle{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+   right: 70px;
+}
+.bellicon{
+    font-size: 30px;
+    position: relative;
+}
+.one{
+ padding: 0px 4px;
+ font-size: 12px;
+}
+.belliconand1{
+    display: flex;
+}
+.rightthree{
+    display: flex;
+    gap: 15px;
+    padding-left: 600px;
+    margin-right: 20px;
+}
+.rightthree:hover{
+    cursor: pointer;
+}
+.prince{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.all{
+display: flex;
+color: black;
+margin-top: 20px;
+margin-left: 30px;
+}
+.textbox{
+    background-color: rgba(34,34,34,255);
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin: 10px;
+ 
+}
+.textbox1{
+    padding: 5px 15px;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: white;
+}
+.textbox:hover{
+    background-color:white ;
+    cursor: pointer;
+}
+.videoboxes{
+justify-content: center;
+
+}
+.box1:hover{
+    scale: 105%;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+.box1{
+    background-color: white;
+    border: 1px solid grey;
+    height: 200px;
+    width: 350px;
+    margin: 10px 20px;
+}
+.white1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+.logoandtext{
+    display: flex;
+    align-items: center;
+}
+.views{
+    font-size: 13px;
+    color: grey;
+}
+.allboxes{
+    display: flex;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: grid;
+    margin-top: 30px;
+}

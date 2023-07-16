@@ -1,0 +1,97 @@
+.left{
+    width: 18%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    
+}
+.listandyoutube{
+    display: flex;
+ align-items: center;
+ font-size: 35px;
+padding: 10px 0px 20px 0px;
+ justify-content: center;
+ gap: 30px;
+}
+.youtubeandnp{
+    display: flex;
+    align-items: center;
+ 
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.youtubeicon{
+    color: red;
+   height: 45px;
+   width: 45px;
+}
+.np{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.line{
+    border: 1px solid grey;
+    margin: 10px;
+}
+.subscribtions{
+   padding: 10px 0px 10px 42px;
+   font-size: 20px;
+}
+.white{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+.circlenameandicon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 5px;
+
+}
+.tseriesandcircle{
+    display: flex;
+    gap: 30px;
+    padding-left: 42px;
+  
+}
+.tower{
+    padding-right: 20px;
+}
+.down{
+    font-size: 20px;
+}
+.fire{
+    font-size: 30px;
+    padding-left: 42px;
+}
+.fireandtrending{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 5px;
+}
+.trendingred{
+    color: red;
+}
+.firered{
+    font-size: 30px;
+    padding-left: 42px;
+    color: red;
+}
+.texts:hover{
+    color: grey;
+    cursor: pointer;
+}
+.white:hover,.list1:hover,.fire:hover,.firered:hover,.youtubeicon:hover{
+    cursor: pointer;
+}
+.trending:hover{
+color: grey;
+cursor: pointer;
+}
